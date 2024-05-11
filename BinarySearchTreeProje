@@ -1,0 +1,20 @@
+Dizinin ilk elemanını kök olarak belirleyelim; kök, 7'dir.
+1) 7'nin sağına 8 eklenir.
+2) 7'nin soluna 5 eklenir.
+3) 5'in soluna 1 eklenir.
+4) 1'in sağına 3 eklenir.
+5) 3'ün soluna 2 eklenir.
+6) 3'ün sağına 4 eklenir.
+7) 5'in sağına 6 eklenir.
+8) 8'in sağına 9 eklenir.
+9) 1'in soluna 0 eklenir.
+
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \     
+  0   3   
+     / \   
+    2   4
