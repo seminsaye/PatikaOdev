@@ -1,0 +1,24 @@
+Merge Sort:
+
+Bölme (Divide): Dizi, ortadan ikiye bölünür.
+[16, 21, 11] ve [8, 12, 22]
+
+Bölme (Divide): Her alt dizi tekrar ortadan ikiye bölünür.
+[16], [21, 11] ve [8], [12, 22]
+
+Bölme (Divide): Her alt dizi tek elemanlı olana kadar bölünmeye devam edilir.
+[16], [21], [11] ve [8], [12], [22]
+
+Birleştirme (Merge): Tek elemanlı alt diziler birleştirilirken sıralı olarak birleştirilirler.
+[16, 21], [11] ve [8, 12], [22]
+
+Birleştirme (Merge): Tek elemanlı diziler ikişerli gruplar halinde birleştirilir.
+[11, 16, 21] ve [8, 12, 22]
+
+Birleştirme (Merge): İkişerli gruplar sıralı olarak birleştirilir.
+[8, 11, 12, 16, 21, 22]
+
+Big-O Gösterimi:
+Merge Sort'un en iyi, orta ve en kötü durumda da zaman karmaşıklığı O(n log n) olarak ifade edilir. Bu n, dizinin uzunluğudur. 
+Bölme işlemi logaritmik bir karmaşıklıkla gerçekleşirken, her bir alt dizinin birleştirilmesi n elemanı üzerinde lineer zaman alır. 
+Bu nedenle, her bir bölme ve birleştirme işlemi O(n log n) karmaşıklığında gerçekleşir.
